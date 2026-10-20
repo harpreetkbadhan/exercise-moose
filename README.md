@@ -1,4 +1,6 @@
-<img src="docs/logo.png" width="96" alt="Exercise Moose logo: a smiling teal moose in a headband">
+<p align="center">
+  <img src="docs/logo.png" width="200" alt="Exercise Moose logo: a smiling teal moose in a headband">
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/readme/banner-dark.png">
