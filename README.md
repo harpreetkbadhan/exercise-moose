@@ -103,7 +103,7 @@ break every 1–2 hours. [Connect Claude Code](docs/claude-code.md) with one but
 
 ## Your limits, one click away
 
-Click your face in the menu bar. The next break and your streak sit on top; under them, Claude Code's
+Click the moose in the menu bar. The next break and your streak sit on top; under them, Claude Code's
 context window and its 5-hour and weekly plan limits, as bars.
 
 <picture>
