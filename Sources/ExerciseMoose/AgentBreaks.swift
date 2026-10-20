@@ -22,9 +22,9 @@ extension MooseApp {
             agentSessions = agentSessions.starting(session, at: now)
             Timer.scheduledTimer(timeInterval: agentMinRun, target: self, selector: #selector(checkAgentBreak),
                                  userInfo: nil, repeats: false)
-        case .stop:
+        case .stop, .wait:
             agentSessions = agentSessions.stopping(session)
-            if agentSessions.isEmpty { agentFinished() }
+            if agentSessions.isEmpty { agentFinished(isWaiting: event == .wait) }
         }
     }
 
@@ -47,12 +47,12 @@ extension MooseApp {
         isAgentBreak = true
     }
 
-    /// The agent is done: say so and close the agent popup. Your regular break timer keeps running.
-    func agentFinished() {
+    /// The agent is done or needs you: say so and close the agent popup. Your regular break timer keeps running.
+    func agentFinished(isWaiting: Bool) {
         guard isAgentBreak, let card, !isCelebrating else { return }
         isCelebrating = true
         countdownTimer?.invalidate()
-        card.stamp(.agentDone(name: agentName))
+        card.stamp(.agentDone(name: agentName, isWaiting: isWaiting))
         celebrationTimer = Timer.scheduledTimer(timeInterval: CELEBRATION_SECONDS, target: self,
                                                 selector: #selector(closeAgentBreak), userInfo: nil, repeats: false)
     }

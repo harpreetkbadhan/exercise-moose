@@ -102,6 +102,11 @@ func agentDoneStampsTheAgent() {
     #expect(Stamp.agentDone(name: "Claude").headline == "Claude is done")
 }
 
+@Test("An agent waiting on you says it needs you")
+func agentWaitingStampsNeedsYou() {
+    #expect(Stamp.agentDone(name: "Claude", isWaiting: true).headline == "Claude needs you")
+}
+
 // MARK: Field colors
 
 @Test("Each exercise type owns its own field colour")

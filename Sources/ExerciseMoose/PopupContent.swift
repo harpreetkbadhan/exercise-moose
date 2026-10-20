@@ -117,13 +117,13 @@ func trimmingTransparentEdges(_ image: NSImage) -> NSImage {
 enum Stamp: Equatable {
     case counted(today: Int, goal: Int)
     case snoozed(until: Date)
-    case agentDone(name: String)
+    case agentDone(name: String, isWaiting: Bool = false)
 
     var headline: String {
         switch self {
         case .counted: "Nice!"
         case .snoozed: "Back at"
-        case .agentDone(let name): "\(name) is done"
+        case .agentDone(let name, let isWaiting): isWaiting ? "\(name) needs you" : "\(name) is done"
         }
     }
 

@@ -20,14 +20,15 @@ func sanitizedLabel(_ text: String) -> String {
 }
 
 enum AgentEvent: String {
-    case start, stop
+    case start, stop, wait  // wait: stopped to ask you for permission or input
 }
 
-/// Maps Claude Code hook events to start/stop. "Notification" means Claude is waiting for you.
+/// Maps Claude Code hook events to start/stop/wait. "Notification" means Claude is waiting for you.
 func agentEvent(fromHookName name: String?) -> AgentEvent? {
     switch name {
     case "UserPromptSubmit": .start
-    case "Stop", "SessionEnd", "Notification": .stop
+    case "Stop", "SessionEnd": .stop
+    case "Notification": .wait
     default: nil
     }
 }
@@ -88,6 +89,6 @@ private func readHookPayload() -> [String: Any] {
 }
 
 private func usageError() -> Int32 {
-    FileHandle.standardError.write(Data("usage: ExerciseMoose --agent [start|stop] [--name <tool>]\n".utf8))
+    FileHandle.standardError.write(Data("usage: ExerciseMoose --agent [start|stop|wait] [--name <tool>]\n".utf8))
     return 1
 }

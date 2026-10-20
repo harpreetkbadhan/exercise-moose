@@ -10,9 +10,14 @@ func promptStartsAgent() {
     #expect(agentEvent(fromHookName: "UserPromptSubmit") == .start)
 }
 
-@Test("Finishing or waiting for you stops it")
-func stopAndNotificationStopAgent() {
-    #expect(agentEvent(fromHookName: "Stop") == .stop && agentEvent(fromHookName: "Notification") == .stop)
+@Test("Finishing stops it")
+func stopStopsAgent() {
+    #expect(agentEvent(fromHookName: "Stop") == .stop && agentEvent(fromHookName: "SessionEnd") == .stop)
+}
+
+@Test("Asking you for permission or input is waiting, not done")
+func notificationWaitsForYou() {
+    #expect(agentEvent(fromHookName: "Notification") == .wait)
 }
 
 @Test("Other hook events are ignored")

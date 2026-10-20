@@ -7,7 +7,8 @@ Claude Code. From then on:
 
 1. You send Claude Code a task.
 2. If it's still working after a minute, your avatar drops down with **"Claude is working"** and a quick seated exercise.
-3. When Claude finishes (or needs your input), the popup shows **"Claude is done"** and closes.
+3. When Claude finishes, the popup shows **"Claude is done"** and closes. If Claude stops to ask for permission
+   or input, it shows **"Claude needs you"** instead.
 
 At most one agent break every 15 minutes, never during calls, while you're away, while reminders are paused or
 snoozed, or outside work hours.
