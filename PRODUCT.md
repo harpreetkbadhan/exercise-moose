@@ -38,7 +38,7 @@ one shows you how, with you. It also knows when Claude Code is busy and turns th
 ## Capabilities and Constraints
 
 - The core product is a native macOS 14+ menu bar app (Swift, AppKit and SwiftUI, no dependencies) in
-  `Sources/ExerciseMoose/`. `website/` is the web landing page. Impeccable's platform field has no macOS value;
+  `Sources/ExerciseMoose/`. Impeccable's platform field has no macOS value;
   native work follows Apple's macOS Human Interface Guidelines.
 - Popup content per break: exercise name, three form tips, posture (seated / stand up), type (stretch, strength,
   move), a countdown (15–60 s), Done (counts toward the streak) and Snooze. Agent and limit breaks add a reason

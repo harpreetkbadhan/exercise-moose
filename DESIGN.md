@@ -184,7 +184,7 @@ Every break is set like an International Typographic Style poster: the user's ow
 
 The world is flat, square-edged and saturated. Depth, decoration and motion are withheld so the avatar and the countdown carry the moment. Light and Dark appearance swap only the card's ground, ink and rules; the exercise fields and the red stay identical in both, because they are signals, not surfaces.
 
-This system governs the native break card (`Sources/ExerciseMoose/PopupCard.swift`, `PopupContent.swift`), the Settings and menu that borrow its ultramarine, and the 300px web copy of the card on the landing page. The landing page around that copy keeps its own pre-existing paper-and-teal world (Unbounded, Figtree, Kalam; `website/app/globals.css`); it is context for the card, not part of this system.
+This system governs the native break card (`Sources/ExerciseMoose/PopupCard.swift`, `PopupContent.swift`), the Settings and menu that borrow its ultramarine, and the 300px web copy of the card on the landing page. The landing page around that copy keeps its own pre-existing paper-and-teal world (Unbounded, Figtree, Kalam); it is context for the card, not part of this system.
 
 The same world also sets the GitHub README (`README.md`) and the `docs/` pages it links to. GitHub allows no CSS, so the world arrives there as pictures: every picture is a light and dark pair of 2x rasters, built around offscreen renders of the real AppKit views (the break card from `PopupCard.swift`, the menu header from `MenuHeader.swift`), each baking in the page's own ground so it sits on the README like printed matter rather than a screenshot in a frame. The text between pictures is GitHub's own type; the pictures carry Helvetica Neue, the ultramarine field and the held-back red.
 

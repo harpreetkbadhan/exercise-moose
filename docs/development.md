@@ -6,7 +6,7 @@
   the menu's header, `Hold.swift` pause and snooze, `PopupCard.swift`, `Settings.swift`, `CLI.swift` for
   `moose`, `Agents.swift` / `ClaudeHook.swift` / `ClaudeUsage.swift` for Claude Code).
 - Tests: `swift test` (Swift Testing, in `Tests/ExerciseMooseTests/`; they never touch your real `~/.claude`).
-  `release.sh` and GitHub Actions run them too, along with ShellCheck and the website's lint and build.
+  `release.sh` and GitHub Actions run them too, along with ShellCheck.
 - `./build.sh` compiles with `./compile.sh`: one universal program for Apple silicon and Intel that runs on the
   macOS version in `Info.plist` (14.0), whatever Mac builds it.
 - Test mode, popup every 10 seconds: `"/Applications/Exercise Moose.app/Contents/MacOS/ExerciseMoose" --test`
