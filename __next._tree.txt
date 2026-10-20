@@ -1,0 +1,11 @@
+:HL["/exercise-moose/_next/static/chunks/1hwec7e3fsb8m.css","style"]
+:HL["/exercise-moose/_next/static/media/0fcab32fcfb2da9d-s.p.01npz8736q7k4.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/exercise-moose/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/exercise-moose/_next/static/media/970c428219233a3d-s.p.2c-43iqdh9ttx.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/exercise-moose/_next/static/media/ab57efd000576a30-s.p.3fofz6dws3mg0.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/exercise-moose/_next/static/media/b59689b1142d37ce-s.p.1bk8_xp319hr4.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/exercise-moose/_next/static/media/f7aa21714c1c53f8-s.p.0-95eo-012xnf.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/exercise-moose/media/character-seated.png","image"]
+:HL["/exercise-moose/media/neck-stretch-poster.png","image"]
+1:[["children",{"s":"__PAGE__","h":160}]]
+0:{"b":"LKlpFkWLJAEeaAaNN27oU","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
