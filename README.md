@@ -16,12 +16,69 @@ when Claude is done.
   <img src="docs/readme/before-after-light.png" width="100%" alt="Without: 4 minutes sitting, a terminal where Claude Code reads, plans, edits and runs tests for 4 minutes 12 seconds. With Moose: 30 seconds moving, the same terminal with the break card showing a neck stretch.">
 </picture>
 
+## Install in 3 steps
+
+Needs **macOS 14 or later**, on Apple silicon or Intel. Free, MIT, native Swift. Nothing leaves your Mac.
+
+### Step 1: Install the app
+
+**Option A: Terminal (recommended).** Open Terminal and paste:
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/harpreetkbadhan/exercise-moose/main/install.sh | bash
 ```
 
-macOS 14 or later, Apple silicon and Intel. Free, MIT, native Swift. Nothing leaves your Mac.
-Other ways to install: [download or build from source](docs/install.md).
+This downloads the latest release, checks its SHA-256 checksum (nothing is installed if it doesn't match),
+puts **Exercise Moose** in Applications, adds the `moose` terminal command (it may ask for your password to
+write `/usr/local/bin/moose`) and starts the app. No "unidentified developer" prompt this way.
+
+**Option B: Download.**
+
+1. Download `ExerciseMoose-x.y.zip` from the [latest release](https://github.com/harpreetkbadhan/exercise-moose/releases/latest).
+2. Unzip it and drag **Exercise Moose** into Applications.
+3. Open it once. macOS blocks the first launch because the app isn't signed with a paid Apple certificate:
+   go to **System Settings → Privacy & Security** and click **Open Anyway**.
+
+**Option C: Build from source.** Needs the Swift toolchain (`xcode-select --install`) and ffmpeg
+(`brew install ffmpeg`).
+
+```bash
+git clone https://github.com/harpreetkbadhan/exercise-moose.git
+cd exercise-moose
+./build.sh
+open "/Applications/Exercise Moose.app"
+```
+
+### Step 2: Find your moose in the menu bar
+
+A small moose icon appears at the top right of your screen. Click it for the next break, your streak,
+**Show now**, **Pause 1 hour** and **Settings**. Your first break comes after 30 minutes of work
+(weekdays 9:00–18:00 by default); to see one right away, click **Show now** or run `moose break`.
+
+It comes with a sample avatar (the author), so it works straight away. [Make your own](docs/avatar.md) any time.
+
+### Step 3: Connect Claude Code (optional)
+
+Open **Settings → AI agents**:
+
+1. Click **Install hook** next to Claude Code. A break now appears when Claude works for more than a minute,
+   and the card tells you when Claude is done.
+2. Click **Install** next to Usage to see your context window and plan limits in the menu.
+
+Both change only `~/.claude/settings.json`, back up your original first, and undo cleanly with **Remove**.
+[What exactly they do](docs/claude-code.md).
+
+### Handy terminal commands
+
+```bash
+moose status       # next break, streak and Claude Code usage
+moose break        # show a break now
+moose pause 30     # pause reminders for 30 minutes
+moose resume       # turn reminders back on
+moose quit         # quit the app
+```
+
+To uninstall, see [Privacy and help](docs/privacy.md#uninstall).
 
 ## One Claude task, three moments
 
