@@ -1,3 +1,5 @@
+<img src="docs/logo.png" width="96" alt="Exercise Moose logo: a smiling teal moose in a headband">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/readme/banner-dark.png">
   <img src="docs/readme/banner-light.png" width="100%" alt="Exercise Moose. Move while your AI codes. A Mac menu bar app: your own avatar shows you a 30-second chair exercise while Claude Code works. Beside it, the break card: Claude is working, Neck Stretch, 17 seconds left.">
