@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T09:30:00Z",
+  "title": "Design System: Exercise Moose",
+  "extensions": {
+    "colorMeta": {
+      "field-ultramarine": {
+        "role": "primary",
+        "displayName": "Ultramarine",
+        "canonical": "oklch(46.1% 0.231 266.1)",
+        "tonalRamp": [
+          "oklch(15% 0.077 266.1)",
+          "oklch(27% 0.123 266.1)",
+          "oklch(39% 0.169 266.1)",
+          "oklch(51% 0.216 266.1)",
+          "oklch(63% 0.200 266.1)",
+          "oklch(75% 0.154 266.1)",
+          "oklch(85% 0.116 266.1)",
+          "oklch(95% 0.077 266.1)"
+        ]
+      },
+      "field-signal-yellow": {
+        "role": "primary",
+        "displayName": "Signal Yellow",
+        "canonical": "oklch(85.0% 0.174 86.6)",
+        "tonalRamp": [
+          "oklch(15% 0.058 86.6)",
+          "oklch(27% 0.093 86.6)",
+          "oklch(39% 0.128 86.6)",
+          "oklch(51% 0.162 86.6)",
+          "oklch(63% 0.151 86.6)",
+          "oklch(75% 0.116 86.6)",
+          "oklch(85% 0.087 86.6)",
+          "oklch(95% 0.058 86.6)"
+        ]
+      },
+      "field-green": {
+        "role": "primary",
+        "displayName": "Signal Green",
+        "canonical": "oklch(55.1% 0.122 161.2)",
+        "tonalRamp": [
+          "oklch(15% 0.041 161.2)",
+          "oklch(27% 0.065 161.2)",
+          "oklch(39% 0.089 161.2)",
+          "oklch(51% 0.114 161.2)",
+          "oklch(63% 0.106 161.2)",
+          "oklch(75% 0.081 161.2)",
+          "oklch(85% 0.061 161.2)",
+          "oklch(95% 0.041 161.2)"
+        ]
+      },
+      "done-red": {
+        "role": "secondary",
+        "displayName": "Swiss Red",
+        "canonical": "oklch(57.7% 0.234 28.0)",
+        "tonalRamp": [
+          "oklch(15% 0.078 28.0)",
+          "oklch(27% 0.125 28.0)",
+          "oklch(39% 0.172 28.0)",
+          "oklch(51% 0.218 28.0)",
+          "oklch(63% 0.203 28.0)",
+          "oklch(75% 0.156 28.0)",
+          "oklch(85% 0.117 28.0)",
+          "oklch(95% 0.078 28.0)"
+        ]
+      },
+      "done-red-pressed": {
+        "role": "secondary",
+        "displayName": "Deep Swiss Red",
+        "canonical": "oklch(49.2% 0.201 27.5)",
+        "tonalRamp": [
+          "oklch(15% 0.067 27.5)",
+          "oklch(27% 0.107 27.5)",
+          "oklch(39% 0.147 27.5)",
+          "oklch(51% 0.188 27.5)",
+          "oklch(63% 0.174 27.5)",
+          "oklch(75% 0.134 27.5)",
+          "oklch(85% 0.101 27.5)",
+          "oklch(95% 0.067 27.5)"
+        ]
+      },
+      "field-ink-white": {
+        "role": "neutral",
+        "displayName": "Field White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(39% 0.000 0)",
+          "oklch(51% 0.000 0)",
+          "oklch(63% 0.000 0)",
+          "oklch(75% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "ground-white": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(39% 0.000 0)",
+          "oklch(51% 0.000 0)",
+          "oklch(63% 0.000 0)",
+          "oklch(75% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "ground-black": {
+        "role": "neutral",
+        "displayName": "Card Black",
+        "canonical": "oklch(15.0% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(39% 0.000 0)",
+          "oklch(51% 0.000 0)",
+          "oklch(63% 0.000 0)",
+          "oklch(75% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "ink-black": {
+        "role": "neutral",
+        "displayName": "Ink Black",
+        "canonical": "oklch(14.5% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(39% 0.000 0)",
+          "oklch(51% 0.000 0)",
+          "oklch(63% 0.000 0)",
+          "oklch(75% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "ink-white": {
+        "role": "neutral",
+        "displayName": "Ink White",
+        "canonical": "oklch(96.1% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(39% 0.000 0)",
+          "oklch(51% 0.000 0)",
+          "oklch(63% 0.000 0)",
+          "oklch(75% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "ink-secondary-light": {
+        "role": "neutral",
+        "displayName": "Secondary Grey (Light)",
+        "canonical": "oklch(47.5% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(39% 0.000 0)",
+          "oklch(51% 0.000 0)",
+          "oklch(63% 0.000 0)",
+          "oklch(75% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "ink-secondary-dark": {
+        "role": "neutral",
+        "displayName": "Secondary Grey (Dark)",
+        "canonical": "oklch(71.5% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(39% 0.000 0)",
+          "oklch(51% 0.000 0)",
+          "oklch(63% 0.000 0)",
+          "oklch(75% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "rule-light": {
+        "role": "neutral",
+        "displayName": "Rule Grey (Light)",
+        "canonical": "oklch(91.6% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(39% 0.000 0)",
+          "oklch(51% 0.000 0)",
+          "oklch(63% 0.000 0)",
+          "oklch(75% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Rule Grey (Dark)",
+        "canonical": "oklch(30.1% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(39% 0.000 0)",
+          "oklch(51% 0.000 0)",
+          "oklch(63% 0.000 0)",
+          "oklch(75% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "page-ground-dark": {
+        "role": "neutral",
+        "displayName": "Page Ground Dark",
+        "canonical": "oklch(17.6% 0.014 258.4)",
+        "tonalRamp": [
+          "oklch(15% 0.014 258.4)",
+          "oklch(27% 0.014 258.4)",
+          "oklch(39% 0.014 258.4)",
+          "oklch(51% 0.014 258.4)",
+          "oklch(63% 0.014 258.4)",
+          "oklch(75% 0.014 258.4)",
+          "oklch(85% 0.014 258.4)",
+          "oklch(95% 0.014 258.4)"
+        ]
+      },
+      "terminal-ground": {
+        "role": "neutral",
+        "displayName": "Terminal Ground",
+        "canonical": "oklch(23.9% 0.006 271.2)",
+        "tonalRamp": [
+          "oklch(15% 0.006 271.2)",
+          "oklch(27% 0.006 271.2)",
+          "oklch(39% 0.006 271.2)",
+          "oklch(51% 0.006 271.2)",
+          "oklch(63% 0.006 271.2)",
+          "oklch(75% 0.006 271.2)",
+          "oklch(85% 0.006 271.2)",
+          "oklch(95% 0.006 271.2)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "countdown": {
+        "displayName": "Countdown",
+        "purpose": "The one monumental number: 42% of the field height (109/126/151pt by card size), top-right of the field."
+      },
+      "stamp-figure": {
+        "displayName": "Stamp Figure",
+        "purpose": "The stamp's count or return time, up to 90% of the field height, fitted to the card width; -0.02em for multi-character times."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Exercise name under the field: 26/30/34pt by card size, one line, truncating."
+      },
+      "stamp-line": {
+        "displayName": "Stamp Line",
+        "purpose": "Stamp headline (top) and detail (bottom)."
+      },
+      "step-number": {
+        "displayName": "Step Number",
+        "purpose": "Anchor numeral of each step column."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Done label."
+      },
+      "step-current": {
+        "displayName": "Step Current",
+        "purpose": "The current step's tip, in full ink."
+      },
+      "step-other": {
+        "displayName": "Step Other",
+        "purpose": "Other steps' tips in secondary grey; also Snooze."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field reason line and the countdown's unit."
+      },
+      "readme-headline": {
+        "displayName": "README Headline",
+        "purpose": "The banner's two-line headline, flush with the README text edge (nudged -4px optically)."
+      },
+      "readme-panel-heading": {
+        "displayName": "README Panel Heading",
+        "purpose": "Each before/after column heading; lead-in in secondary grey, claim in full ink."
+      },
+      "readme-wordmark": {
+        "displayName": "README Wordmark",
+        "purpose": "\"Exercise Moose\" beside the 40px logo, top-left of the banner."
+      },
+      "readme-line": {
+        "displayName": "README Line",
+        "purpose": "The banner's one-line pitch in secondary grey, opening phrase bold in ink, max 640px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "panel",
+        "value": "system window shadow (NSPanel hasShadow); web copy: 0 24px 50px -18px rgb(0 0 0 / 0.55)",
+        "purpose": "The only depth: under the floating card. Nothing inside the card casts a shadow."
+      },
+      {
+        "name": "readme-card-gif-light",
+        "value": "soft panel shadow baked into the raster, falling right and down",
+        "purpose": "The light card GIF on white."
+      },
+      {
+        "name": "readme-card-gif-dark",
+        "value": "hairline rim baked into the raster",
+        "purpose": "Replaces the shadow on the #0D1117 ground, where a shadow would not read."
+      },
+      {
+        "name": "readme-menu",
+        "value": "0 0 0 0.5px rgb(0 0 0 / .18), 16px 14px 30px -10px rgb(0 0 0 / .35)",
+        "purpose": "The menu picture: rim plus a shadow offset right and down so nothing crosses the text edge."
+      },
+      {
+        "name": "readme-banner-card",
+        "value": "drop-shadow(0 22px 40px rgb(0 0 0 / .35))",
+        "purpose": "The card on the banner's ultramarine field."
+      },
+      {
+        "name": "readme-terminal-card",
+        "value": "drop-shadow(0 16px 26px rgb(0 0 0 / .5))",
+        "purpose": "The card over the With Moose terminal."
+      }
+    ],
+    "motion": [
+      {
+        "name": "time-bar-fill",
+        "value": "1s linear",
+        "purpose": "Step time bars fill continuously across per-second ticks; disabled under Reduce Motion."
+      },
+      {
+        "name": "stamp-cut",
+        "value": "0s (hard cut)",
+        "purpose": "Stamps replace the card instantly, like a print changing over."
+      },
+      {
+        "name": "card-gif-frame",
+        "value": "0.28s per frame, 31 frames (30 to 0)",
+        "purpose": "README card GIF countdown with each step's bar filling in turn."
+      },
+      {
+        "name": "card-gif-hold",
+        "value": "2.2s, hard cut in",
+        "purpose": "Final frame of the README card GIF on the Claude is done stamp."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "card-small",
+        "value": "340px"
+      },
+      {
+        "name": "card-medium",
+        "value": "380px"
+      },
+      {
+        "name": "card-large",
+        "value": "440px"
+      },
+      {
+        "name": "readme-composition",
+        "value": "1280px"
+      },
+      {
+        "name": "readme-card-gif",
+        "value": "340px"
+      },
+      {
+        "name": "readme-menu",
+        "value": "318px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Break Card (Stretch)",
+      "kind": "card",
+      "refersTo": "card-light",
+      "description": "The full break card at medium size: field with figure and countdown, title, three step columns, Snooze and Done.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-field\"><span class=\"ds-reason\">Seated · Stretch</span><span class=\"ds-count\">17</span><span class=\"ds-unit\">seconds</span></div><p class=\"ds-title\">Neck Stretch</p><ol class=\"ds-steps\"><li class=\"ds-step\"><b>1</b><span>Sit tall, shoulders down</span><i style=\"--f:100%\"></i></li><li class=\"ds-step ds-now\"><b>2</b><span>Tilt ear toward shoulder</span><i style=\"--f:30%\"></i></li><li class=\"ds-step\"><b>3</b><span>Hold 15s each side</span><i style=\"--f:0%\"></i></li></ol><div class=\"ds-foot\"><button class=\"ds-snooze\">Snooze 5 min</button><button class=\"ds-done\">Done</button></div></div>",
+      "css": ".ds-card{font-family:'Helvetica Neue','Inter Tight',sans-serif;width:380px;padding:16px;background:#FFFFFF;color:#0A0A0A;border-radius:12px;overflow:hidden;box-shadow:0 24px 50px -18px rgb(0 0 0/.55)}.ds-field{position:relative;height:300px;background:#1D3FD6;color:#FFFFFF}.ds-reason{position:absolute;left:12px;top:12px;font-size:12px;font-weight:700}.ds-count{position:absolute;right:10px;top:4px;font-size:126px;font-weight:700;line-height:.9;letter-spacing:-.04em;font-variant-numeric:tabular-nums}.ds-unit{position:absolute;right:12px;top:124px;font-size:12px;font-weight:700}.ds-title{margin:14px 0 12px;font-size:30px;font-weight:700;line-height:1;letter-spacing:-.02em}.ds-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0;padding:0;list-style:none}.ds-step{display:flex;flex-direction:column}.ds-step b{font-size:15px}.ds-step span{margin:3px 0 8px;min-height:32px;font-size:13px;font-weight:500;color:#5C5C5C}.ds-now span{font-weight:700;color:#0A0A0A}.ds-step i{margin-top:auto;height:3px;background:linear-gradient(#0A0A0A,#0A0A0A) 0/var(--f) 100% no-repeat #E3E3E3;transition:background-size 1s linear}.ds-foot{display:flex;justify-content:space-between;align-items:center;margin-top:16px}.ds-snooze{font-family:'Helvetica Neue','Inter Tight',sans-serif;height:44px;border:0;background:none;font-size:13px;font-weight:500;color:#5C5C5C;cursor:pointer}.ds-snooze:hover,.ds-snooze:focus-visible{color:#0A0A0A}.ds-done{font-family:'Helvetica Neue','Inter Tight',sans-serif;width:116px;height:44px;border:0;border-radius:0;background:#E30613;color:#FFFFFF;font-size:15px;font-weight:700;cursor:pointer}.ds-done:active{background:#B8000F}.ds-done:focus-visible,.ds-snooze:focus-visible{outline:2px solid #0A0A0A;outline-offset:2px}"
+    },
+    {
+      "name": "Done Button",
+      "kind": "button",
+      "refersTo": "button-done",
+      "description": "The one red thing on the card and the one thing to press; darkens when pressed.",
+      "html": "<button class=\"ds-btn-done\">Done</button>",
+      "css": ".ds-btn-done{font-family:'Helvetica Neue','Inter Tight',sans-serif;width:116px;height:44px;border:0;border-radius:0;background:#E30613;color:#FFFFFF;font-size:15px;font-weight:700;cursor:pointer}.ds-btn-done:active{background:#B8000F}.ds-btn-done:focus-visible{outline:2px solid #0A0A0A;outline-offset:2px}"
+    },
+    {
+      "name": "Snooze Button",
+      "kind": "button",
+      "refersTo": "button-snooze",
+      "description": "Quiet text action, as tall as Done.",
+      "html": "<button class=\"ds-btn-snooze\">Snooze 5 min</button>",
+      "css": ".ds-btn-snooze{font-family:'Helvetica Neue','Inter Tight',sans-serif;height:44px;padding:0 4px;border:0;background:none;font-size:13px;font-weight:500;color:#5C5C5C;cursor:pointer}.ds-btn-snooze:hover,.ds-btn-snooze:focus-visible{color:#0A0A0A}.ds-btn-snooze:focus-visible{outline:2px solid #0A0A0A;outline-offset:2px}"
+    },
+    {
+      "name": "Exercise Fields",
+      "kind": "custom",
+      "refersTo": "field-stretch",
+      "description": "One full-strength hue per exercise kind with its ink; identical in Light and Dark Mode.",
+      "html": "<div class=\"ds-fields\"><div class=\"ds-f\" style=\"background:#1D3FD6;color:#FFFFFF\"><span>Stretch</span><b>30</b></div><div class=\"ds-f\" style=\"background:#FFC400;color:#0A0A0A\"><span>Strength</span><b>45</b></div><div class=\"ds-f\" style=\"background:#00875A;color:#FFFFFF\"><span>Move</span><b>60</b></div></div>",
+      "css": ".ds-fields{display:flex;gap:12px}.ds-f{font-family:'Helvetica Neue','Inter Tight',sans-serif;position:relative;width:120px;height:120px}.ds-f span{position:absolute;left:10px;top:10px;font-size:12px;font-weight:700}.ds-f b{position:absolute;right:8px;top:24px;font-size:56px;line-height:.9;letter-spacing:-.04em}"
+    },
+    {
+      "name": "Step Column",
+      "kind": "custom",
+      "refersTo": "time-bar",
+      "description": "Numbered tip with a 3px time bar; the current step is bold in ink and its bar fills linearly.",
+      "html": "<div class=\"ds-col\"><b>2</b><span>Tilt ear toward shoulder</span><i></i></div>",
+      "css": ".ds-col{font-family:'Helvetica Neue','Inter Tight',sans-serif;display:flex;flex-direction:column;width:110px}.ds-col b{font-size:15px;color:#0A0A0A}.ds-col span{margin:3px 0 8px;font-size:13px;font-weight:700;color:#0A0A0A}.ds-col i{height:3px;background:linear-gradient(#0A0A0A,#0A0A0A) 0/30% 100% no-repeat #E3E3E3;transition:background-size 1s linear}.ds-col:hover i{background-size:70% 100%}"
+    },
+    {
+      "name": "Counted Stamp",
+      "kind": "card",
+      "refersTo": "stamp-counted",
+      "description": "Full-card stamp after Done: headline, monumental count, detail line, on Swiss red. Hard cut, no fade.",
+      "html": "<div class=\"ds-stamp\"><span>Nice!</span><b>3</b><span>of 6 today</span></div>",
+      "css": ".ds-stamp{font-family:'Helvetica Neue','Inter Tight',sans-serif;display:flex;flex-direction:column;width:300px;height:400px;padding:28px;border-radius:12px;background:#E30613;color:#FFFFFF}.ds-stamp span{font-size:17px;font-weight:700}.ds-stamp b{margin:auto 0 16px -12px;font-size:270px;line-height:.8;letter-spacing:-.04em}"
+    },
+    {
+      "name": "README Banner",
+      "kind": "custom",
+      "refersTo": "readme-banner-light",
+      "description": "Wordmark, two-line headline and line flush left on the page's own ground; ultramarine field with the working card at right.",
+      "html": "<div class=\"ds-rb\"><div class=\"ds-rb-name\">Exercise Moose</div><p class=\"ds-rb-h\">Move while<br>your AI codes.</p><p class=\"ds-rb-line\"><b>A Mac menu bar app.</b> Your own avatar shows you a 30-second chair exercise while Claude Code works.</p><div class=\"ds-rb-field\"><div class=\"ds-rb-card\"><span>Claude is working</span><b>17</b></div></div></div>",
+      "css": ".ds-rb{font-family:'Helvetica Neue','Inter Tight',sans-serif;position:relative;width:640px;height:230px;background:#FFFFFF;color:#0A0A0A;overflow:hidden}.ds-rb-name{position:absolute;left:0;top:22px;font-size:11px;font-weight:700;letter-spacing:-.01em}.ds-rb-h{position:absolute;left:-2px;top:59px;margin:0;font-size:49px;font-weight:700;line-height:.95;letter-spacing:-.045em}.ds-rb-line{position:absolute;left:0;bottom:22px;margin:0;max-width:320px;font-size:9px;line-height:1.4;font-weight:500;color:#5C5C5C}.ds-rb-line b{color:#0A0A0A}.ds-rb-field{position:absolute;right:0;top:0;bottom:0;width:235px;background:#1D3FD6}.ds-rb-card{position:absolute;right:35px;top:17px;width:150px;height:190px;background:#FFFFFF;border-radius:6px;filter:drop-shadow(0 11px 20px rgb(0 0 0/.35))}.ds-rb-card span{position:absolute;left:8px;top:8px;font-size:6px;font-weight:700;color:#1D3FD6}.ds-rb-card b{position:absolute;right:8px;top:2px;font-size:40px;letter-spacing:-.04em;color:#1D3FD6}"
+    },
+    {
+      "name": "Before/After Column",
+      "kind": "card",
+      "refersTo": "readme-terminal",
+      "description": "A 3px ink rule, a heading with a grey lead-in, then the illustrated terminal.",
+      "html": "<section class=\"ds-ba\"><h2><span>With Moose:</span> 30 seconds moving.</h2><div class=\"ds-ba-term\"><p class=\"ds-you\">&gt; refactor the auth module and add tests</p><p>Reading src/auth/*.ts</p><p>Editing session.ts…</p></div></section>",
+      "css": ".ds-ba{font-family:'Helvetica Neue','Inter Tight',sans-serif;width:620px;border-top:3px solid #0A0A0A;padding-top:14px;color:#0A0A0A}.ds-ba h2{margin:0;font-size:38px;font-weight:700;letter-spacing:-.035em;line-height:1}.ds-ba h2 span{color:#5C5C5C}.ds-ba-term{margin-top:22px;height:200px;background:#1E1F22;border-radius:10px;padding:16px 20px;font-family:'SF Mono',Menlo,monospace;font-size:13.5px;line-height:1.85;color:#9EA7B3}.ds-ba-term p{margin:0}.ds-you{color:#FFFFFF}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Swiss Break Poster",
+    "overview": "Every break is set like an International Typographic Style poster: the user's own figure stands on the bottom edge of one full-strength colour field, one monumental number holds the top right, and everything else sits on a strict grid in a single grotesque. The card is the product's point, so the system is built to be read in one glance from across a desk: one hue, one number, three steps, one red thing to press.\n\nThe world is flat, square-edged and saturated. Depth, decoration and motion are withheld so the avatar and the countdown carry the moment. Light and Dark appearance swap only the card's ground, ink and rules; the exercise fields and the red stay identical in both, because they are signals, not surfaces.\n\nThis system governs the native break card (`Sources/ExerciseMoose/PopupCard.swift`, `PopupContent.swift`), the Settings and menu that borrow its ultramarine, and the 300px web copy of the card on the landing page. The landing page around that copy keeps its own pre-existing paper-and-teal world (Unbounded, Figtree, Kalam; `website/app/globals.css`); it is context for the card, not part of this system.\n\nThe same world also sets the GitHub README (`README.md`) and the `docs/` pages it links to. GitHub allows no CSS, so the world arrives there as pictures: every picture is a light and dark pair of 2x rasters, built around offscreen renders of the real AppKit views (the break card from `PopupCard.swift`, the menu header from `MenuHeader.swift`), each baking in the page's own ground so it sits on the README like printed matter rather than a screenshot in a frame. The text between pictures is GitHub's own type; the pictures carry Helvetica Neue, the ultramarine field and the held-back red.",
+    "keyCharacteristics": [
+      "One full-strength field per exercise kind; the figure stands on its bottom edge.",
+      "One monumental number per card: the countdown, or the stamp's count or time.",
+      "Helvetica Neue only, bold and medium, display sizes tracked tight.",
+      "Sharp edges everywhere inside a 12pt panel radius.",
+      "Swiss red held back for Done and the counted stamp alone.",
+      "Nothing decorative moves; stamps are hard cuts.",
+      "On the README, every picture is a real render on the page's own ground, flush with the text edge."
+    ],
+    "rules": [
+      {
+        "name": "The One Field Rule",
+        "body": "Each exercise kind owns exactly one hue, at full strength, identical in Light and Dark Mode. On the card a field is never tinted, graded or shared with another kind.",
+        "section": "colors"
+      },
+      {
+        "name": "The Held-Back Red Rule",
+        "body": "Swiss red appears on the card only where you press (Done) and on the stamp that thanks you for pressing it. Snooze and agent stamps take the exercise's own field; red is never a warning or a flash.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink-on-Field Rule",
+        "body": "White on ultramarine, green and red; Ink Black on signal yellow. Every field/ink pair holds WCAG AA at the 12pt bold label size.",
+        "section": "colors"
+      },
+      {
+        "name": "The Page's Own Ground Rule",
+        "body": "A README raster's background is exactly the page it sits on: Card White for light, Page Ground Dark for dark, swapped by `<picture>` and `prefers-color-scheme`. No picture brings its own backdrop, frame or card behind the composition.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Helvetica Neue in bold and medium is the only type on the card. No second face, no italic, no system display fallback chosen on purpose.",
+        "section": "typography"
+      },
+      {
+        "name": "The Monumental Number Rule",
+        "body": "Each card state has exactly one oversized number, and it is set tight. Nothing else on the card competes with it in size.",
+        "section": "typography"
+      },
+      {
+        "name": "The Bold-Means-Now Rule",
+        "body": "Only the current step is bold in full ink; columns are measured in bold so switching steps never reflows the card.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Left Edge Rule",
+        "body": "The banner's wordmark, headline and line, the before/after rules and headings, the card GIF and the menu all start exactly at the README's text edge. A composition never adds its own left margin.",
+        "section": "layout"
+      },
+      {
+        "name": "The No Float Rule",
+        "body": "No `align`ed images. GitHub adds 20px of padding beside them, and a float either squeezes the text into slivers or overflows at phone width. A picture goes above its text.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Poster Rule",
+        "body": "The card is printed, not stacked: no inner shadows, glows, gradients or translucent layers on the field, the steps or the buttons.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Right-and-Down Rule",
+        "body": "On the README a shadow is cast only to the right and downward, never left past the text edge. Where a shadow would vanish on the dark ground, a hairline rim replaces it.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Sharp Inside Rule",
+        "body": "The only radius in the system is the panel's outer corner. Anything set inside the card is square.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** give each exercise kind its own field: ultramarine for stretch, signal yellow for strength, green for move, identical in Light and Dark Mode.",
+      "**Do** keep the avatar standing on the field's bottom edge, cropped to its visible pixels.",
+      "**Do** set one monumental number per card state at 42% (countdown) or up to 90% (stamp) of the field height, tracked -0.04em.",
+      "**Do** use Helvetica Neue bold and medium only, and the `--font-grid` stack on the web copy.",
+      "**Do** keep everything inside the card square; round only the panel's outer corners (12pt).",
+      "**Do** let the ultramarine field colour carry the app's accent elsewhere (Settings tint, history chart).",
+      "**Do** honor Reduce Motion by dropping the time-bar animation, and announce cards and stamps to VoiceOver.",
+      "**Do** build README pictures from offscreen renders of the real views, at 2x, as light and dark pairs on #FFFFFF and #0D1117, with their provenance embedded.",
+      "**Do** start every README picture at the text edge and cast its shadow only right and down; use a hairline rim on the dark ground.",
+      "**Do** stack each README picture above the text it illustrates.",
+      "**Do** tell the README in prose under plain headings, and keep the health note on the README itself.",
+      "**Do** move long reference material to a `docs/` page that opens with a breadcrumb back to the README."
+    ],
+    "donts": [
+      "**Don't** use Swiss red for anything on the card except Done and the counted stamp.",
+      "**Don't** add gradients, progress rings, pill buttons or inner shadows to the card.",
+      "**Don't** tint, lighten or mix the field hues on the card, or let two kinds share one.",
+      "**Don't** introduce a second typeface or set any other element at a size that competes with the monumental number.",
+      "**Don't** fade, slide or bounce the stamp in; it cuts.",
+      "**Don't** float README images with `align`, or set two images side by side as separate elements; a side-by-side is one composed raster.",
+      "**Don't** show the app in the README through mockups or redrawn imitations of its views; render the real views (the avatar inside them is the user's own figure, as in the app).",
+      "**Don't** put badge rows, feature-bullet lists or eyebrow labels above headings on the README."
+    ]
+  }
+}

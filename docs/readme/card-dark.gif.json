@@ -1,0 +1,4 @@
+{
+  "prompt": "Origin: rendered, not generated. 32 frames of the real PopupCard (Sources/ExerciseMoose/PopupCard.swift) drawn offscreen at 2x by a render harness with the sample avatar, dark appearance: a neck stretch counting down from 30 while Claude is working, ending on the Claude is done stamp. Composited onto the README ground (light #FFFFFF with the panel shadow, dark #0D1117 with a hairline rim) and assembled with ImageMagick at 680 px, one shared palette, 0.28 s per frame, 2.2 s on the stamp.",
+  "createdAt": "2026-10-20T06:54:29.808Z"
+}
